@@ -1,0 +1,11 @@
+{
+  "name": "template1",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Bootstrap", "HTML", "CSS"],
+  "author": "Oliver Huckfeldt",
+  "license": "MIT",
+  "description": "A simple CSS-Template with Bootstrap 5"
+}
