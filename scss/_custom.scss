@@ -1,0 +1,82 @@
+@import "variables";
+
+.banner {
+    > div {
+        padding: 20rem 0;
+        > p {
+            max-width: 28rem;
+        }
+    }
+}
+
+.gallery {
+    background-color: $gray-200;
+    > div {
+        padding:  8rem 0;
+        > p {
+            max-width: 42rem;
+        }
+    }
+    &__img-container {
+        max-width: calc(3*12rem);
+        grid-template-columns: 10rem 16rem 10rem ;
+        row-gap: 1rem;
+        column-gap: 1rem;
+
+        > img {
+            width: 10rem;
+            height: 10rem;
+
+            &:nth-child(2) {
+                width: 16rem;
+                height: 21rem;
+                grid-row: span 2;
+            }
+        }
+    }
+}
+
+.testimonials {
+    > div {
+        padding:  8rem 0;
+        > p {
+            max-width: 42rem;
+        }
+    }
+    img {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+.pricing {
+    background-color: $gray-200;
+    > div {
+        padding:  8rem 0;
+        > p {
+            max-width: 42rem;
+        }
+    }
+    &__row {
+        max-width: 58rem;
+    }
+    &__card {
+        min-width: 14rem;
+    }
+}
+
+.footer {
+    > div {
+        padding: 8rem 0 4rem 0;
+        > p {
+            max-width: 42rem;
+        }
+    }
+    &__social-icons {
+        > li {
+            width: 4rem;
+            height: 4rem;
+            line-height: 4rem
+        }
+    }
+}
